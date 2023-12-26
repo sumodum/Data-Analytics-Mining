@@ -1,0 +1,69 @@
+Breast ==================================================================
+breast_cba & breast_others
+Atts: ['Clump Thickness', 'Uniformity of Cell Size',
+       'Uniformity of Cell Shape', 'Marginal Adhesion',
+       'Single Epithelial Cell Size', 'Bare Nuclei', 'Bland Chromatin',
+       'Normal Nucleoli', 'Mitoses']
+Classify: ['Class'] (1, 0) 
+
+Tic Tac Toe ==============================================================
+tictactoe_cba & tictactoe_others
+Atts: ['Top Left_b', 'Top Left_o', 'Top Left_x', 'Top Middle_b',
+       'Top Middle_o', 'Top Middle_x', 'Top Right_b', 'Top Right_o',
+       'Top Right_x', 'Middle Left_b', 'Middle Left_o', 'Middle Left_x',
+       'Middle Middle_b', 'Middle Middle_o', 'Middle Middle_x',
+       'Middle Right_b', 'Middle Right_o', 'Middle Right_x', 'Bottom Left_b',
+       'Bottom Left_o', 'Bottom Left_x', 'Bottom Middle_b', 'Bottom Middle_o',
+       'Bottom Middle_x', 'Bottom Right_b', 'Bottom Right_o',
+       'Bottom Right_x']
+Classify: ['Class'] (1, 0)
+
+Mushrooms =================================================================
+mushroom_others
+Atts: ['Class', 'Bruises_f', 'Bruises_t', 'Odour_f', 'Odour_n',
+       'Stalk Shape_e', 'Stalk Shape_t', 'Stalk Root_b',
+       'Stalk Surface Above Ring_k', 'Stalk Surface Above Ring_s',
+       'Stalk Surface Below Ring_k', 'Stalk Surface Below Ring_s',
+       'Stalk Colour Above Ring_b', 'Stalk Colour Above Ring_n',
+       'Stalk Colour Below Ring_b', 'Stalk Colour Below Ring_n', 'Ring Type_e',
+       'Ring Type_l', 'Ring Type_p', 'Spore Print Colour_h',
+       'Spore Print Colour_k', 'Spore Print Colour_n']
+Classify: ['Class'] (1, 0)
+
+mushroom_cba
+Atts: ['Cap Shape', 'Cap Surface', 'Cap Colour', 'Bruises', 'Odour',
+       'Gill Attachment', 'Gill Spacing', 'Gill Size', 'Gill Colour',
+       'Stalk Shape', 'Stalk Root', 'Stalk Surface Above Ring',
+       'Stalk Surface Below Ring', 'Stalk Colour Above Ring',
+       'Stalk Colour Below Ring', 'Veil Colour', 'Ring Number', 'Ring Type',
+       'Spore Print Colour', 'Population', 'Habitat']
+Classify: ['Class'] (1, 0)
+
+Banknote ==================================================================
+data_banknote_authentication_cleaned.csv
+Atts: ['variance','skewness']
+Classify: ['class'] (1,0)
+
+Ionosphere ==================================================================
+ionosphere_cleaned.csv
+Atts: ['v1','v3','v5','v7','v8','v9','v11','v12','v13','v14','v15','v21','v23','v25','v29','v31','v33']
+Classify: ['class'] (1,0)
+
+Hepatitis ==================================================================
+hepatitis_cleaned.csv
+Atts: ['Fatigue(no/yes)','Malaise(no/yes)','Spiders(no/yes)','Ascites(no/yes)','Varices(no/yes)','Bilirubin','Albumin','Histology(no/yes)']
+Classify: ['Dead/Alive'] (1,0)
+
+Mammographic ==================================================================
+mammographic_masses_cleaned.csv
+Atts: ['BI-RADs','Age','Shape','Margin']
+Classify: ['Severity'] (1,0)
+
+Japanese Credit Screening ==================================================================
+crx_cleaned.csv
+Atts: ['A4', 'A9', 'A10', 'A11', 'A12']
+Classify: ['A1'] (1,0)
+
+crx_original_cleaned.csv
+Atts: ['A4', 'A9', 'A10', 'A11', 'A12']
+Classify: ['A1'] (-,+)
